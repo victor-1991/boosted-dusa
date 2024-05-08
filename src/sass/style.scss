@@ -1,0 +1,62 @@
+@import "lib/bootstrap-reboot.min";
+@import "base/variables.scss";
+@import "lib/fonts";
+
+* {
+    box-sizing: border-box;
+
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.disable-scroll {
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@import "blocks/hamburger/hamburger";
+@import "blocks/hamburger/media";
+@import "blocks/header/header";
+@import "blocks/header/media";
+@import "blocks/button/button";
+@import "blocks/button/media";
+@import "blocks/hero/hero";
+@import "blocks/hero/media";
+@import "blocks/types/types";
+@import "blocks/types/media";
+@import "blocks/divider/divider";
+@import "blocks/boosted/boosted";
+@import "blocks/boosted/media";
+@import "blocks/boards/boards";
+@import "blocks/boards/media";
+@import "blocks/rev/rev";
+@import "blocks/rev/media";
+@import "blocks/galery/galery";
+@import "blocks/galery/media";
+@import "blocks/videos/videos";
+@import "blocks/videos/media";
+@import "blocks/accessories/accessories";
+@import "blocks/slider/slider";
+@import "blocks/slider/media";
+@import "blocks/whiteline/whiteline";
+@import "blocks/whiteline/media";
+@import "blocks/features/features";
+@import "blocks/features/media";
+@import "blocks/footer/footer";
+@import "blocks/footer/media";

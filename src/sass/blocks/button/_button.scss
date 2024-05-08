@@ -1,0 +1,21 @@
+.button {
+    display: block;
+    height: 33px;
+    width: 101px;
+
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+
+    background-color: $main-color;
+
+    border-radius: 35px;
+    transition: all .3s;
+    &:hover {
+        background-color: #f6290e;
+        transform: translateY(-5px);
+    }
+    &_w201 {
+        width: 201px;
+    }
+}

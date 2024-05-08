@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+	.container {
+		max-width: 960px;
+	}
+	.types {
+		padding: 0 30px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 720px;
+	}
+	.types {
+		&__list {
+			gap: 15px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 540px;
+	}
+	.types {
+		&__list {
+			gap: 18px;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		width: 100%;
+		padding: 0 10px;
+	}
+	.types {
+		&__list {
+			flex-direction: column;
+		}
+	}
+}

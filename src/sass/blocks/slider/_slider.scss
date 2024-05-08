@@ -1,0 +1,36 @@
+.slider {
+    .swiper-slide {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        min-height: 237px;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        top: unset;
+        left: 0;
+        bottom: 63px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        transition: all .3s;
+        &:hover {
+            background-color: rgba(200, 200, 200, 0.75);
+        }
+    }
+    .swiper-button-prev, .swiper-button-next {
+        &::after {
+            content: "";
+            background: url("../../../icons/accessories/arrow_left.svg") center center/cover no-repeat;
+            display: block;
+            width: 19px;
+            height: 25px;
+        }
+    }
+    .swiper-button-next {
+        left: unset;
+        right: 0;
+        &::after {
+            background: url("../../../icons/accessories/arrow_next.svg") center center/cover no-repeat;
+        }
+    }
+}

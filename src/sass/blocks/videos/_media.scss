@@ -1,0 +1,41 @@
+@media (max-width: 1200px) {
+	.container {
+		max-width: 960px;
+	}
+	.videos {
+		&__wrapper {
+			grid-template-columns: repeat(2, 470px);
+			grid-template-rows: unset;
+			grid-auto-rows: unset;
+		}
+		&__item {
+			aspect-ratio: 1/0.56;
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 720px;
+	}
+	.videos {
+		&__wrapper {
+			grid-template-columns: 1fr;
+			grid-template-rows: auto;
+			grid-auto-rows: auto
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		width: 100%;
+		padding: 0 10px;
+	}
+}

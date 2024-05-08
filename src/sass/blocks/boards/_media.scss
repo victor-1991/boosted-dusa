@@ -1,0 +1,21 @@
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 720px;
+	}
+	.boards {
+		padding-top: 100px;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		width: 100%;
+		padding: 0 10px;
+	}
+	.boards {
+		&__inner {
+			min-height: 500px;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+.hero {
+    margin-top: 66px;
+    background: url('../img/hero/bg.jpg') center center/cover no-repeat;
+    min-height: 810px;
+    padding-top: 52px;
+    &__header {
+        margin: 0;
+        padding: 0;
+        font-size: 44px;
+        line-height: 51px;
+        text-align: center;
+    }
+    &__text {
+        line-height: 18.75px;
+        text-align: center;
+        margin-top: 14px;
+        letter-spacing: 1px;
+    }
+    &__btns {
+        display: flex;
+        justify-content: center;
+        margin-top: 22px;
+    }
+    &__button:nth-child(2) {
+        margin-left: 12px;
+    }
+}

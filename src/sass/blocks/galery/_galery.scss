@@ -1,0 +1,41 @@
+.galery {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        // grid-template-rows: 480px;
+        // grid-auto-rows: 480px;
+    }
+    &__item {
+        aspect-ratio: 1/1;
+        &:nth-child(1) {
+            background: url('../img/galerry/healtch.png') center center/cover no-repeat;;
+        }
+        &:nth-child(2) {
+            background: url('../img/galerry/plus.png') center center/cover no-repeat;;
+        }
+        &:nth-child(3) {
+            background: url('../img/galerry/mini.png') center center/cover no-repeat;;
+        }
+        &-title {
+            display: block;
+            margin-top: 208px;
+            font-size: 25px;
+            line-height: 30px;
+            color: #fff;
+            text-align: center;
+            transition: all .3s;
+        }
+        &-stock {
+            display: block;
+            margin-top: 15px;
+            font-size: 18px;
+            line-height: 23.45px;
+            color: #fff;
+            text-align: center;
+            transition: all .3s;
+        }
+        &-title:hover, &-stock:hover {
+            color: $main-color
+        }
+    }
+}
